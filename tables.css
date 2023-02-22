@@ -1,0 +1,30 @@
+div{
+      border-collapse: collapse;
+      margin: auto;
+      text-align:start;
+      margin-left: 200px;
+    
+  }
+    th{
+        background-color: blue;
+        color: aqua;
+    }
+    th,td{
+        width: 200px;
+        text-align: center;
+        border: 3px solid black;
+        padding: 5px;
+    }
+    th, td {
+  background-color: #96D4D4;
+  background-color: #ae96d4;
+}
+    #heading{
+        color: black;
+        text-align:center;
+    }
+    
+.tab{
+    margin-left: 200px;
+    margin-top: -45%;
+}

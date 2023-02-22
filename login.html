@@ -5,54 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><sign-web></title>
-        <style>
-      body{
-    background-image: url(images/jupiter.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-     }
-      .signupform {
-    
-            text-align:center;
-            margin: 10% 40%;
-        }
-          .image{
-              float: left;
-              clear: left;
-              margin-left: 0px;
-              margin-bottom: 10px;
-              padding: 10px;
-          }  
-        </style>
+      <link rel="stylesheet" href="loginn.css">
 </head>
 <body>
+    
     <h1>Zoho</h1>
-    <p> A central hub where teams can work , plan </p> 
-     <p> and achieve amazing things together</p> 
-     <img src="images/hope.jpg" width="30%" height="200%" 
+    
+    <p> A central hub where teams can work , plan and achieve amazing things together</p> 
+    <div class="containera">
+     <img src="images/hope.jpg" width="50%" height="50%" 
      alt="hey image"
      class="image">
-    <form class="signupform">
+    <form class="content">
     <h1>login to Zoho</h1>
     <h5>START FOR FREE</h5>
     <form>
 <p>Don't have account?<a href="index.html">SignUp</a></p>
 <label >E-mail:</label>
 <br>
-<input type="email"placeholder="name@gmail.com">
+<input id="input2" type="email"placeholder="name@gmail.com">
 <br>
 <br>
 <label>Password:</label>
 <br>
-<input type="password"placeholder="G+ characters /capital letter">
+<input id="input1"type="password"placeholder="G+ characters /capital letter">
 <br>
 <br>
- <button><a href="table.html">login</a></button>
+ <button id="button1"><a href="table.html">login</a></button>
 <br>
 <br>
-<button>login with google</button>
+<button id="create">login with google</button>
 <br/>
 <br/>
+    </form>
+</div>
 
 </body>
 </html>
